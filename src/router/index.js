@@ -50,6 +50,11 @@ const router = createRouter({
             path: '/tp/inputDynamic',
             name: 'inputDynamic',
             component: () => import('../views/tp/inputDynamic.vue')
+        }, 
+        {
+            path: '/tp/v-if',
+            name: 'v-if',
+            component: () => import('../views/tp/v-if.vue')
         }
     ]
 })
