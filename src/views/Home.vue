@@ -52,7 +52,7 @@ const exercises = ref([
   { title: 'Compteur Réactif', description: 'Compteur interactif avec Vue.js.', link: '/tp/EventBinding' },
   { title: 'Formulaire Dynamique', description: 'Formulaires réactifs avec v-model.', link: '/tp/V-onInput' },
   { title: 'Liste Dynamique-card', description: 'Affichez une liste d\'éléments.', link: '/tp/Databinding' },
-  { title: 'Compteur 2', description: 'A définire.', link: '/tp/watch' },
+  { title: 'CLIQUEZ !', description: 'A définire.', link: '/tp/watch' },
   { title: 'Toggle Card', description: 'Gestion des styles de card dynamiquement, au click .', link: '/tp/styleDynamic' },
 ])
 
