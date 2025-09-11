@@ -40,6 +40,16 @@ const router = createRouter({
             path: '/tp/watch',
             name: 'watch',
             component: () => import('../views/tp/watch.vue')
+        },
+        {
+            path: '/tp/styleDynamic',
+            name: 'styleDynamic',
+            component: () => import('../views/tp/styleDynamic.vue')
+        },
+        {
+            path: '/tp/inputDynamic',
+            name: 'inputDynamic',
+            component: () => import('../views/tp/inputDynamic.vue')
         }
     ]
 })

@@ -26,6 +26,8 @@
                       <li><router-link to="/tp/EventBinding">EventBinding</router-link></li>
                       <li><router-link to="/tp/V-onInput">V-onInput</router-link></li>
                       <li><router-link to="/tp/watch">Watch</router-link></li>
+                      <li><router-link to="/tp/styleDynamic">styleDynamic</router-link></li>
+                      <li><router-link to="/tp/inputDynamic">InputDynamic</router-link></li>
                     </ul>
                   </details>
                 </li>
@@ -38,11 +40,11 @@
     </div>
 
 
-   <!----------------------------- <  A découper ! > ------------------------------>
+    <!----------------------------- <  A découper ! > ------------------------------>
 
-    
+
     <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal px-1 z-10">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
         <li>
@@ -58,6 +60,9 @@
                     <li><router-link to="/tp/Databinding">Databinding</router-link></li>
                     <li><router-link to="/tp/EventBinding">EventBinding</router-link></li>
                     <li><router-link to="/tp/V-onInput">V-onInput</router-link></li>
+                    <li><router-link to="/tp/watch">Watch</router-link></li>
+                    <li><router-link to="/tp/styleDynamic">styleDynamic</router-link></li>
+                    <li><router-link to="/tp/inputDynamic">InputDynamic</router-link></li>
                   </ul>
                 </details>
               </li>
@@ -74,6 +79,8 @@
 
 <script setup lang='js'>
 import { RouterLink } from 'vue-router';
+
+
 
 
 </script>
