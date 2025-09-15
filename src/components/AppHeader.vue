@@ -29,6 +29,9 @@
                       <li><router-link to="/tp/styleDynamic">styleDynamic</router-link></li>
                       <li><router-link to="/tp/inputDynamic">InputDynamic</router-link></li>
                       <li><router-link to="/tp/v-if">InputDynamic</router-link></li>
+                      <li><router-link to="/tp/api">API</router-link></li>
+                      <li><router-link to="/tp/FriendsList">Amis </router-link></li>
+
                     </ul>
                   </details>
                 </li>
@@ -65,6 +68,8 @@
                     <li><router-link to="/tp/styleDynamic">styleDynamic</router-link></li>
                     <li><router-link to="/tp/inputDynamic">InputDynamic</router-link></li>
                     <li><router-link to="/tp/v-if">InputDynamic</router-link></li>
+                    <li><router-link to="/tp/api">API</router-link></li>
+                    <li><router-link to="/tp/FriendsList">Amis </router-link></li>
                   </ul>
                 </details>
               </li>
@@ -81,6 +86,7 @@
 
 <script setup lang='js'>
 import { RouterLink } from 'vue-router';
+
 
 
 

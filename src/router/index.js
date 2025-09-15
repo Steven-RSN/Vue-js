@@ -6,7 +6,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path:'/:pathMatch(.*)*',
+            path: '/:pathMatch(.*)*',
             name: 'NotFound',
             component: () => import('../views/tp/NotFoundView.vue')
 
@@ -50,11 +50,21 @@ const router = createRouter({
             path: '/tp/inputDynamic',
             name: 'inputDynamic',
             component: () => import('../views/tp/inputDynamic.vue')
-        }, 
+        },
         {
             path: '/tp/v-if',
             name: 'v-if',
             component: () => import('../views/tp/v-if.vue')
+        },
+        {
+            path: '/tp/api',
+            name: 'v-if',
+            component: () => import('../views/tp/api.vue')
+        },
+        {
+            path: '/tp/FriendsList',
+            name: 'FriendsList',
+            component: () => import('../views/tp/FriendsList.vue')
         }
     ]
 })
