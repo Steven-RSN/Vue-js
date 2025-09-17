@@ -15,9 +15,16 @@
 
 <script setup lang="js">
 defineProps({
-    user: {
-        type: Object,
+  user: {
+    type: Object,
+    
+    //Sécurité:
+    required: true, 
+    validator:(valeur)=>{
+      return typeof valeur.nom === 'string' && typeof valeur.age === 'number'
     }
+
+  }
 });
 
 </script>

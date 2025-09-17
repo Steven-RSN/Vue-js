@@ -15,6 +15,7 @@ import CardEval from '../../components/CardEval.vue';
 import { ref } from 'vue';
 
 const userData = ref('')
+
 function sendUserData(data){
     console.log('Dans le parent:',data)
     userData.value = data;
