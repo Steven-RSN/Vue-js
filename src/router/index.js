@@ -65,7 +65,22 @@ const router = createRouter({
             path: '/tp/FriendsList',
             name: 'FriendsList',
             component: () => import('../views/tp/FriendsList.vue')
-        }
+        },
+        {
+            path: '/tp/eventEmit',
+            name: 'eventEmit',
+            component: () => import('../views/tp/eventEmit.vue')
+        },
+        {
+            path: '/components/ParentComponent',
+            name: 'ParentComponent',
+            component: () => import('../components/ParentComponent.vue')
+        },
+        {
+            path: '/tp/miniEval',
+            name: 'miniEval',
+            component: () => import('../views/tp/miniEval.vue')
+        },
     ]
 })
 export default router;

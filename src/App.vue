@@ -1,8 +1,5 @@
 <template>
   <div class="min-h-screen flex flex-col bg-base-200 text-base-content">
-
-    <hello msg="msg-> Bite!" name="caca"></hello>
-
     <!-- Navbar en haut de la page -->
 
     <AppHeader />
@@ -20,7 +17,7 @@
 <script setup lang="js">
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
-import hello from './views/tp/hello.vue';
+
 // import { ref } from 'vue'
 // const array =["livre boba fett","livre de la jungle"]
 // const compteur = ref(0)

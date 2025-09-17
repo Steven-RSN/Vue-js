@@ -12,6 +12,8 @@
         <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/about">About</router-link></li>
+          <li><router-link to="/components/ParentComponent">testCompoCOM' </router-link></li>
+
           <li>
             <details>
               <summary>Resource</summary>
@@ -31,6 +33,7 @@
                       <li><router-link to="/tp/v-if">InputDynamic</router-link></li>
                       <li><router-link to="/tp/api">API</router-link></li>
                       <li><router-link to="/tp/FriendsList">Amis </router-link></li>
+                      <li><router-link to="/tp/eventEmit">like </router-link></li>
 
                     </ul>
                   </details>
@@ -49,14 +52,18 @@
 
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1 z-10">
+        <li><router-link to="/tp/miniEval">EVAL-JEFF</router-link></li>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
+        <li><router-link to="/components/ParentComponent">testCompoCOM' </router-link></li>
+
         <li>
           <details>
             <summary>Resource</summary>
             <ul class="p-3">
               <li><a>Exercice</a></li>
               <li><a>Lessons</a></li>
+
               <li>
                 <details>
                   <summary>TP</summary>
@@ -70,6 +77,8 @@
                     <li><router-link to="/tp/v-if">InputDynamic</router-link></li>
                     <li><router-link to="/tp/api">API</router-link></li>
                     <li><router-link to="/tp/FriendsList">Amis </router-link></li>
+                    <li><router-link to="/tp/eventEmit">like </router-link></li>
+
                   </ul>
                 </details>
               </li>
@@ -86,8 +95,6 @@
 
 <script setup lang='js'>
 import { RouterLink } from 'vue-router';
-
-
 
 
 
