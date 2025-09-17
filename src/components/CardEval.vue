@@ -17,7 +17,7 @@
 defineProps({
   user: {
     type: Object,
-    
+
     //Sécurité:
     required: true, 
     validator:(valeur)=>{

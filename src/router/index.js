@@ -81,6 +81,21 @@ const router = createRouter({
             name: 'miniEval',
             component: () => import('../views/tp/miniEval.vue')
         },
+        {
+            path: '/components/BarChart',
+            name: 'BarChart',
+            component: () => import('../components/BarChart.vue')
+        },
+        {
+            path: '/components/radarChart',
+            name: 'radarChart',
+            component: () => import('../components/radarChart.vue')
+        },
+        {
+            path: '/components/pinias',
+            name: 'pinias',
+            component: () => import('../components/pinias.vue')
+        },
     ]
 })
 export default router;

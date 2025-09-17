@@ -22,11 +22,14 @@ const emit=defineEmits({
         return typeof payload.nom==='string' && typeof payload.age==='number' // test sécurité
     }
 });
+
 const nom = ref('');
 const age = ref('');
 
 function sendDataFrom() {
     console.log("Dans l'enfant", nom.value, '&', age.value)
+
+    
     if (!nom.value || nom.value.trim() === '') { return }
     if (!age.value || isNaN(age.value) || age.value <= 0) { return }
 

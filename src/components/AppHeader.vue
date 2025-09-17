@@ -13,6 +13,7 @@
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/about">About</router-link></li>
           <li><router-link to="/components/ParentComponent">testCompoCOM' </router-link></li>
+           <li><router-link to="/components/pinias">pine </router-link></li>
 
           <li>
             <details>
@@ -53,6 +54,9 @@
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1 z-10">
         <li><router-link to="/tp/miniEval">EVAL-JEFF</router-link></li>
+        <li><router-link to="/components/pinias">Pine</router-link></li>
+        <li><router-link to="/components/BarChart">SUPER Graf</router-link></li>
+        <li><router-link to="/components/radarChart">SUPER radar</router-link></li>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
         <li><router-link to="/components/ParentComponent">testCompoCOM' </router-link></li>
@@ -95,7 +99,6 @@
 
 <script setup lang='js'>
 import { RouterLink } from 'vue-router';
-
 
 
 
